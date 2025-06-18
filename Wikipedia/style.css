@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f8f9;
+}
+
+button{
+    background-color: white;
+    border: none;
+}
+nav{
+    display: flex;
+    border-bottom: 2px solid lightgray;
+    align-items: center;
+}
+
+nav .menu{
+    height: 25px;
+    margin: 15px;
+}
+
+nav .logo{
+    height: 50px;
+    margin: 15px 0 0 0; 
+}
+
+nav .nome{
+    height: 20px;
+    margin: 15px 0 0 15px;
+    align-items: center;
+    position: absolute;
+    }
+
+nav .significado{
+    height: 13px;
+    display: block;
+    margin: -20px 70px 10px;
+ }
+
+header{
+    border-right: 2px solid lightgray;
+    background-color: white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    background-color: white;
+    border-top: 2px solid lightgray;
+    margin-top: 15px;
+    padding: 0 10px;
+}
+
+#sobre h1,
+#sobre h2{
+    border-bottom: 2px solid lightgray;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+#tema,
+#sobre{
+    border-right: 3px solid lightgray;
+    padding: 15px;
+}
+
+#links{
+    padding: 15px;
+}
+
+p{
+    padding: 15px;
+    line-height: 1.5;
+}
+
+h3{
+    margin-left: 10px;
+}
+
+.antiguidade{
+    margin-left: 10px;
+}
+
+#idadeMedia,
+#idadeModerna,
+.referencia{
+    margin-left: 20px;
+}
+
+.corpo{
+    text-align: center;
+}
+
+.corpo img{
+    width: 330px;
+}
+
+.kindle{
+    height: 330px;
+}
+
+figcaption{
+    margin-bottom: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    text-align: center;
+}
+
+tbody tr .t2{
+    width: 70%;
+    padding: 5px;
+}
+
+thead,
+tbody tr:nth-child(even){
+    background-color: #f9f8f9;
+    width: 100%;
+}
+
+caption{
+   font-size: 25px;
+   background-color: #f9f8f9;
+}
+
+caption small a{
+    font-size: 15px;
+}
+
+table thead th{
+    border-bottom: 2px solid lightgray;
+    margin-top: 5px;
+}
+
+#videos1{
+    margin-top: 10px;
+}
+
+iframe{
+    margin: 10px 0;
+}
+
+footer{
+    border-top: 2px solid lightgray;
+    margin: 20px;
+    padding: 10px;
+}
